@@ -19,7 +19,7 @@ class CocoaDebugWindow: UIWindow {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        self.backgroundColor = .white
+        self.backgroundColor = .clear
         self.windowLevel = UIWindow.Level(rawValue: UIWindow.Level.alert.rawValue - 1)
     }
     
